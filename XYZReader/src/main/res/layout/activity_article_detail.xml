@@ -1,4 +1,4 @@
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -38,4 +38,4 @@
         android:elevation="@dimen/fab_elevation"
         android:contentDescription="@string/action_share" />
 
-</android.support.design.widget.CoordinatorLayout>
+</FrameLayout>

@@ -152,6 +152,13 @@ public class ArticleDetailFragment extends Fragment implements
         ((AppCompatActivity)getActivity()).setSupportActionBar(mToolbar);
         ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().finish();
+            }
+        });
+        
         bindViews();
         //updateStatusBar();
         return mRootView;
